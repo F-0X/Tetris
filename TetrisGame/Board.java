@@ -234,6 +234,7 @@ class Board extends JPanel implements ActionListener {
                         Status.muted = true;
                         Tetris.mute();
                     }
+                    break;
                 case KeyEvent.VK_Q:
                     System.exit(0);
 
